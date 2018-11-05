@@ -1,0 +1,31 @@
+html,body{
+    font-size:16px;
+}
+.header{
+    height: 40px;
+    background-color: #6D9ECF;
+}
+.title{
+    font-size:1.5em;
+    font-weight: 700;
+}
+.info{
+    font-size: .8em;
+    color: #555555;
+    border-bottom: 1px solid #f7f7f7;
+    padding: 0 0 10px 0;
+}
+.form{
+    padding: 0 10px;
+}
+.form-item{
+    margin-bottom: 10px;
+}
+.btn-groups{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.btn-groups button{
+    margin-top: 5px;
+}

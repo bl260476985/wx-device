@@ -1,0 +1,57 @@
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size:16px;
+}
+.red-star{
+    color: red;
+}
+.title{
+    font-size:1.5em;
+    font-weight: 700;
+}
+.info{
+    font-size: .8em;
+    color: #555555;
+    border-bottom: 1px solid #f7f7f7;
+    padding: 0 0 10px 0;
+}
+.form{
+    padding: 0 10px;
+}
+.form-item{
+    margin-bottom: 10px;
+}
+.btn-groups{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.btn-groups button{
+    margin-top: 5px;
+}
+.div-submit{
+    padding: 15px 0;
+}
+.btn-submit{
+    width: 80%;
+    background-color: #30C5E6;
+    color: #fff;
+}
+.form{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    text-align: center;
+}
+.form-label{
+    width: 70px;
+    text-align: center;
+}
+.form-item .form-control{
+    display: inline-block;
+    width: 80%;
+}
