@@ -422,7 +422,7 @@ class DeviceController extends Controller
             $insert = [
                 'id' => parent::getUid(),
                 'device_id' => $id,
-                'type' => 1,
+                'type' => 2,
                 'operator_id' => $cur_id,
                 'operator_name' => $cur_name,
             ];

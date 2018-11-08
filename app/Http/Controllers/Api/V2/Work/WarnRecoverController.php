@@ -136,9 +136,9 @@ class WarnRecoverController extends Controller
                 DB::table('device_warning')->where('id', $id)->update([
                     'warn_status' => 2
                 ]);
-                $id = parent::getUid(); //生成唯一标识
+                $warn_id = parent::getUid(); //生成唯一标识
                 DB::table('device_warndeal')->insert([
-                    'id' => $id,
+                    'id' => $warn_id,
                     'warn_id' => $id,
                     'deal_type' => 1,
                     'deal_user_id' => $cur_id,
